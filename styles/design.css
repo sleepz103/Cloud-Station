@@ -6,7 +6,6 @@
     font-family: incosolataFont, monospace;
     font-size: large;
     font-weight: 500;
-    /*border: 1px red solid;*/
 }
 
 header{
@@ -15,9 +14,17 @@ header{
     letter-spacing: 6px;
     position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+    top: 0;
+	padding-top: 18px;
     background-color: var(--primaryOrange);
 }
+header a{
+    color: var(--secondaryPurple);
+    text-decoration: none;
+    position: -webkit-sticky;
+	position: sticky;
+}
+
 
 
 nav ul{
